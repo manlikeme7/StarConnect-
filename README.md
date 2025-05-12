@@ -1,2 +1,124 @@
-# StarConnect-
-Landing page for celebrity platform
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StarConnect - Connect with Celebrities</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #091540;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #e2ecf9;
+    }
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+    .buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .primary-btn {
+      background: #091540;
+      color: #fff;
+    }
+    .secondary-btn {
+      background: #fff;
+      color: #091540;
+      border: 2px solid #091540;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+      background: #fff;
+    }
+    .feature {
+      flex: 1 1 300px;
+      max-width: 300px;
+      margin: 20px;
+      padding: 20px;
+      background: #f0f4f8;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #091540;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>StarConnect</h1>
+    <nav>
+      <a href="#profiles">Profiles</a>
+      <a href="#requests">Meet & Greets</a>
+      <a href="#donate">Donations</a>
+      <a href="#dashboard">Dashboard</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Connect With Celebrities</h1>
+    <p>Explore celebrity profiles or request meet & greets with your favorite stars.</p>
+    <div class="buttons">
+      <a href="#profiles" class="primary-btn">Explore Profiles</a>
+      <a href="#requests" class="secondary-btn">Request Meet & Greet</a>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h3>Request Meet & Greets</h3>
+      <p>Schedule exclusive meet & greet opportunities with your favorite celebrities.</p>
+    </div>
+    <div class="feature">
+      <h3>Make Donations</h3>
+      <p>Support the causes and foundations backed by celebrities you love.</p>
+    </div>
+    <div class="feature">
+      <h3>Team Management</h3>
+      <p>Celebrity reps manage requests, monitor analytics, and more from their dashboard.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 StarConnect. All rights. reserved.</p>
+  </footer>
+</body>
+</html>
